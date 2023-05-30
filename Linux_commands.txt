@@ -1,0 +1,11 @@
+grep -o -r name /home/shradha/prac -----> to recursively search a string through the directory
+test -d /opt/dontoexist && echo dir exist
+ shradha@shradha-virtual-machine:~$ test=/opt 
+shradha@shradha-virtual-machine:~$ test -d /opt/dontoexist && echo dir exist
+dir exist  -----> to check whether dir exists
+ps -a | grep sleep | awk '{print }'| sudo xargs kill -9
+
+test -d /path/to/directory && echo Directory exists || echo Directory does not exist
+
+tar -czvf archieve.tar.gz /home/shradha/prac/   ----> to compress a directory then to extract it
+tar -xzvf archieve.tar.gz   ----> to extract it
